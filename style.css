@@ -1,0 +1,55 @@
+#Girl {
+    transform-origin: 400px 250px;
+    animation: move 2s infinite ease;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#leg {
+    transform-origin: 401.58px 383px;
+    animation: legMove 2s infinite ease;
+}
+
+@keyframes legMove {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#bird {
+    transform-origin: 610.76px 104.1px;
+    left: 0;
+    animation: Bird 40s infinite ease;
+}
+
+@keyframes Bird {
+    from {
+        left: 0;
+        transform: translateX(-100%)
+    }
+
+    to {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}
